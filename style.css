@@ -1,0 +1,71 @@
+
+.judul{
+    text-align: left;
+}
+
+.tautan {
+    text-align: right;
+}
+
+.header{ 
+    border : 1px solid #dedede; 
+    padding : 10px; 
+    margin : 10px; 
+    background-color :rgba(70, 70, 70, 0.911);
+    box-shadow: 2px 2px 15px black;
+    color: rgb(238, 253, 19);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   } 
+
+
+
+.tautan h2 a{
+    text-align: right;
+    text-decoration: none;
+    color: rgb(238, 253, 19);
+}
+
+
+.footer{ 
+    clear : both; 
+    color: rgb(238, 253, 19);
+    border : 1px solid #dedede; 
+    padding : 15px; 
+    margin : 10px; 
+    background-color :rgba(70, 70, 70, 0.911);
+    box-shadow: 2px 2px 15px black;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+.paragraf{
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background-color :rgba(170, 155, 155, 0.911);
+    
+}
+
+body{
+    background-image: url(toko2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: ipx solid #ddd;;
+}
+
+th, td{
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
